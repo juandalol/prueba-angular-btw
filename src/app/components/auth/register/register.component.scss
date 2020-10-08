@@ -1,0 +1,45 @@
+.title {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  h1 {
+    font-size: 40pt;
+    font-weight: bold;
+  }
+}
+.container {
+  //    display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.card {
+  margin: 0 auto;
+  width: 40rem;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+form {
+  align-items: center;
+  margin: 0 auto;
+}
+
+button {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  
+}
+
+.login{
+    margin-top: 0rem;
+}

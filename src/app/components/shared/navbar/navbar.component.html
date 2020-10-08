@@ -1,11 +1,18 @@
 <mat-toolbar color="primary" class="navbar">
-    <div> 
-        Juan David
+    <div>
+        Juan David - BTW
     </div>
     <div>
-        <span>Home</span>
-        <span>About</span>
-        <span>Services</span>
+        <div *ngIf="user$ | async as user; else login">
+            <a routerLink="/"><span>Home</span></a>
+            <a><span>About</span></a>
+            <a><span>Services</span></a>
+            <a><span (click)="onLogout()" routerLink="/login">Cerrar sesión</span></a>
+        </div>
+        <ng-template #login>
+            <a routerLink="/login"><span>Iniciar Sesión</span></a>
+            <a routerLink="/register"><span>Registrar</span></a>
+        </ng-template>
     </div>
-</mat-toolbar>
 
+</mat-toolbar>
