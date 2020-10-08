@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "login-108ee": {
+      "hosting": {
+        "prueba-angular-btw": [
+          "login-108ee"
+        ]
+      }
+    }
+  }
+}
